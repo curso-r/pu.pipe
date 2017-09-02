@@ -41,6 +41,7 @@ x <- c(1, 2, 3, 4)
 sqrt(sum(x))
 
 # Agora com o pipe.
+
 x %>% sum %>% sqrt
 ```
 
@@ -68,6 +69,19 @@ recipiente(rep("farinha", 2), "água", "fermento", "leite", "óleo") %>%
 
 ```
 
+Às vezes, queremos que o resultado do lado esquerdo vá para outro argumento do lado direito que não o primeiro. Para isso, utilizamos um `.` como marcador.
+
+```{r}
+# Queremos que o dataset seja recebido pelo segundo argumento (data=) da função "lm".
+
+airquality %>%
+  na.omit %>% 
+  lm(Ozone ~ Wind + Temp + Solar.R, data = .) %>% 
+  summary
+```
+
+O *pipe* é a força da gravidade dentro do `tidyverse`. Veremos nas próximas seções como as funções de diferentes pacotes interagem perfeitamente graças a esse operador.
 
 Para mais informações sobre o `pipe`, outros operadores relacionados e exemplos de utilização, visite a página [Ceci n'est pas un pipe](http://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html).
 
+--------------------------------------------------------------------------------
