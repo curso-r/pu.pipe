@@ -5,7 +5,9 @@ author: "William Amorim"
 
 ```{r, message=FALSE, warning=FALSE, include=FALSE}
 knitr::opts_chunk$set(
-  collapse = TRUE
+  collapse = TRUE, 
+  out.width = "60%", out.height = "60%",
+  fig.retina = 2
 )
 ```
 
@@ -28,7 +30,6 @@ Não há apenas uma maneira de resolver os exercícios. Você pode encontrar sol
 --------------------------------------------------------------------------------
 
 **1.**
-
 
 Reescreva a expressão abaixo utilizando o `%>%`.
 
