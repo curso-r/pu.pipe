@@ -1,13 +1,9 @@
 language: r
-cran: http://cran.rstudio.com
 cache: packages
 
 branches:
   only:
   - master
-
-r_github_packages:
-  - curso-r/puBuild
 
 before_script:
   - chmod +x ./_build.sh
