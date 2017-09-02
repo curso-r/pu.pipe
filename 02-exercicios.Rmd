@@ -3,13 +3,6 @@ title: "Exercícios"
 author: "William Amorim"
 ---
 
-```{r, message=FALSE, warning=FALSE, include=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  eval = FALSE
-)
-```
-
 ## Exercícios
 
 --------------------------------------------------------------------------------
@@ -18,7 +11,7 @@ knitr::opts_chunk$set(
 
 Reescreva a expressão abaixo utilizando o `%>%`.
 
-```{r}
+```{r, collapse = TRUE, eval = FALSE}
 round(mean(sum(1:10)/3), digits = 1)
 ```
 
@@ -30,7 +23,7 @@ round(mean(sum(1:10)/3), digits = 1)
 
 Reescreva o código abaixo utilizando o `%>%`.
 
-```{r}
+```{r, collapse = TRUE, eval = FALSE}
 
 x <- rnorm(100)
 
@@ -48,7 +41,7 @@ saida <- round(media, 1)
 
 Sem rodar, diga qual a saída do código abaixo. Consulte o help das funções caso precise.
 
-```{r}
+```{r, collapse = TRUE, eval = FALSE}
 2 %>% 
   add(2) %>% 
   c(6, NA) %>% 
