@@ -35,7 +35,7 @@ x %>% f(y)
 Nos casos mais simples, o *pipe* parece não trazer grandes vantagens. Agora, veja como fica um caso mais etapas.
 
 ```{r}
-# Vamos calcular a raiz quadrada da soma dos valores de 1 a 4. Primeiro sem o pipe.
+# Vamos calcular a raiz quadrada da soma dos valores de 1 a 4. Primeiro, sem o pipe.
 
 x <- c(1, 2, 3, 4)
 sqrt(sum(x))
