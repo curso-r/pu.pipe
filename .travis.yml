@@ -1,13 +1,13 @@
 language: r
+cran: http://cran.rstudio.com
 cache: packages
 
 branches:
   only:
   - master
 
-env:
-  global:
-    - secure: "b5eFJNe9RUhV8zj6MJe1ZfNjpCVAI0LGolBysVT7uc9Wi2GLcgyYa8NuQoFUh0UeIV7FP+qLzolULI8GR9ytZ8KqyK/NAq0wonYVKF+Zdp6HLomQGyKzDHfrOS+jhKEE8uUxl/8rTCDS54WhBkEF6obO6G4QiQKRf1MHhPIdt4bwze+ZB8dY7/pxDcbgrTtKOK7cBp0td+Xexm81qMbM4t9zgt5M6rqIkwffHC0NCWzhuy6BPyuB+vlWlhu2ODJBGjqHOHr1GDAd/ENPCLVCXaavPyyZvyovzlVbZWFwNcLZQGZY88OTl5U1LeTTgM9uojgY4mo9ht+mEZS6Yhw11L6E+iVuJ94IWfVqXUXDIpZMvnJWz6W6wueqDf0Ic+XliN6+JsC0D8escFtkGiADlK31Zv14qFAeVkBbRnZ8HxPdMUeNjOxlfjiNnuVO1vrI/fqtyNSX2VfEYyryOrr9oMRxz4hS5mQJ2ItwkXouRcwq3Jkd9LNQ7QF7fnYXBnk0IVt4MSjketpDwvKzdqrUcEIKasI3g0uifGaFBdaXyrrrPt5JJiycihLWotj/SyM25Sm70QUdU5Ozq99+AOg28+ffmOVH1pLY2GGWohxr4zY6I8H1ftkqFVq/5xpJpw+sEY1NivOTpgFlbcVkwQIqqhcp2JaRH5/7MxSsnoKjLio="
+r_github_packages:
+  - curso-r/puBuild
 
 before_script:
   - chmod +x ./_build.sh
