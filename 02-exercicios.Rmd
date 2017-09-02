@@ -1,6 +1,6 @@
 ---
 title: "Exercícios"
-author: "Daniel Falbel, William Amorim"
+author: "William Amorim"
 ---
 
 ```{r, message=FALSE, warning=FALSE, include=FALSE}

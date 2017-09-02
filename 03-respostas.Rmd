@@ -1,5 +1,5 @@
 ---
-title: "Exercícios"
+title: "Respostas"
 author: "William Amorim"
 ---
 
@@ -88,5 +88,3 @@ Sem rodar, diga qual a saída do código abaixo. Consulte o help das funções c
 - Por fim, testemos se o valor é igual a 5, obtendo o valor `TRUE`.
 
 --------------------------------------------------------------------------------
-
-
