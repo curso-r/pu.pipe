@@ -1,6 +1,6 @@
 ---
-title: Introdução
-date: '2017-09-02'
+title: 'O operador pipe'
+date: '2017-10-10'
 ---
 
 
